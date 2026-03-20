@@ -1,0 +1,11 @@
+{
+  "name": "archiapp",
+  "version": "1.0.0",
+  "main": "tp2/index.js",
+  "scripts": {
+    "start": "node tp2/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

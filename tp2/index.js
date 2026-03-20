@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 // servir les fichiers statiques du client
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 // cors
 app.use(function(req, res, next) {
