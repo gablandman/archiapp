@@ -73,11 +73,6 @@ document.getElementById("send-btn").addEventListener("click", function() {
     update(msgs);
 });
 
-// bouton mise a jour
-document.getElementById("update-btn").addEventListener("click", function() {
-    update(msgs);
-});
-
 // bouton theme
 document.getElementById("theme-btn").addEventListener("click", function() {
     document.body.classList.toggle("dark");
