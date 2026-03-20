@@ -1,0 +1,126 @@
+body {
+    background-color: #FFFF00;
+    font-family: "Comic Sans MS", cursive;
+    color: navy;
+    margin: 10px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+    animation: rainbow 3s infinite;
+}
+
+@keyframes rainbow {
+    0%   { color: red; }
+    16%  { color: orange; }
+    33%  { color: yellow; }
+    50%  { color: lime; }
+    66%  { color: cyan; }
+    83%  { color: magenta; }
+    100% { color: red; }
+}
+
+@keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+h2 {
+    color: purple;
+    animation: blink 1s infinite;
+}
+
+header {
+    background-color: lime;
+    padding: 10px;
+    border: 3px dashed red;
+}
+
+ul {
+    list-style: square;
+    margin: 15px;
+}
+
+li {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+li .pseudo {
+    font-weight: bold;
+    color: red;
+}
+
+li .msg-text {
+    display: block;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+textarea, input[type="text"] {
+    display: block;
+    margin: 5px 0;
+    width: 300px;
+}
+
+button {
+    background-color: silver;
+    border: 2px outset gray;
+    padding: 5px 10px;
+    margin: 5px 2px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: gray;
+}
+
+/* theme sombre */
+body.dark {
+    background-color: #222;
+    color: #0f0;
+}
+
+body.dark header {
+    background-color: #333;
+    border-color: #0f0;
+}
+
+body.dark h1 { color: #0f0; animation: none; }
+body.dark h2 { color: #0f0; }
+
+body.dark li {
+    background-color: #333;
+    border-color: #0f0;
+}
+
+body.dark li .pseudo { color: #0ff; }
+
+body.dark textarea, body.dark input[type="text"] {
+    background: #333;
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+
+body.dark button {
+    background: #444;
+    color: #0f0;
+    border-color: #0f0;
+}

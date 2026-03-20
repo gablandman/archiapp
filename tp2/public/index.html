@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Messages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dépôt de Messages</h1>
+    </header>
+
+    <main>
+        <h2>Messages</h2>
+        <ul id="message-list"></ul>
+
+        <h2>Nouveau message</h2>
+        <label>Serveur :</label>
+        <input type="text" id="server-url" value="">
+        <label>Pseudo :</label>
+        <input type="text" id="pseudo-input" placeholder="Pseudo">
+        <label>Message :</label>
+        <textarea id="message-input" rows="3" placeholder="Votre message"></textarea>
+        <br>
+        <button id="send-btn">Envoyer</button>
+        <button id="update-btn">Mise à jour</button>
+        <button id="theme-btn">Changer thème</button>
+    </main>
+
+    <footer>
+        <p>TP ArchiApp Gabriel Landman</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
