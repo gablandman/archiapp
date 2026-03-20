@@ -20,11 +20,11 @@ console.log(applique(function(n) { return n + 1; }, [1, 2, 3, 4, 5, 6]));
 // exo 3.2 + 3.3
 
 var msgs = [
-    { pseudo: "Alice",   msg: "Premier message de test",  date: "2026-03-20 09:00" },
-    { pseudo: "Bob",     msg: "Deuxième message",         date: "2026-03-20 09:15" },
-    { pseudo: "Charlie", msg: "Troisième message",        date: "2026-03-20 10:30" },
-    { pseudo: "Diana",   msg: "Quatrième message",        date: "2026-03-20 11:00" },
-    { pseudo: "Eve",     msg: "Cinquième message",        date: "2026-03-20 12:00" }
+    { pseudo: "Alice",   msg: "Premier message de test",  date: "2026-03-07 09:00" },
+    { pseudo: "Bob",     msg: "Deuxième message",         date: "2026-03-07 09:15" },
+    { pseudo: "Charlie", msg: "Troisième message",        date: "2026-03-07 10:30" },
+    { pseudo: "Diana",   msg: "Quatrième message",        date: "2026-03-07 11:00" },
+    { pseudo: "Eve",     msg: "Cinquième message",        date: "2026-03-07 12:00" }
 ];
 
 function update(tab) {
